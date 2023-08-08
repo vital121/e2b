@@ -26,7 +26,7 @@ env:
 jobs:
   deploy:
     name: Build and release
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
